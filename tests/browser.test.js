@@ -34,7 +34,8 @@ describe('Clicking "Pusha till stacken"', () => {
 		let push = await driver.findElement(By.id('push'));
 		await push.click();
 		let alert = await driver.switchTo().alert();
-		expect(alert).toBeUndefined();
+		expect(alert).toBeDefined();
+
 	});
 	
 });
