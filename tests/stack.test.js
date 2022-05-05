@@ -26,4 +26,5 @@ test('peek on stack with three elements and remove the last element', () => {
     stack.pop()
     expect(stack.peek()).toBe(9000);
     
+    
 });    
