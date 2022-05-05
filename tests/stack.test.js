@@ -18,7 +18,7 @@ test('peek on stack with two or more elements returns the top element', () => {
     expect(stack.peek()).toBe(42);
 });
 
-test('peek on stack with two or more elements returns the top element', () => {
+test('peek on stack with three elements and remove the last element', () => {
     stack.push(5000);
     stack.push(9000);
     stack.push(10000);
